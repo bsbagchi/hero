@@ -1,3 +1,13 @@
+<script>
+   
+    const hero ='/src/multimarket.svg';
+</script>
 <div class="p-5 bg-black">
-    <img src="/multimarket.svg" alt="hero"/>
+
+
+
+    <img src={new URL(hero,import.meta.url).href} alt="hero" />
+
+
+
 </div>
